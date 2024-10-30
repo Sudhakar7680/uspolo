@@ -1,0 +1,157 @@
+
+ body{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+}
+.navbar {
+    /* background-color: #1e6a9f; */
+    background: rgb(70,130,193);
+    background: linear-gradient(90deg, rgba(70,130,193,1) 0%, rgba(124,105,246,0.9828723725818452) 50%, rgba(183,123,228,1) 100%);
+}
+
+.navbar-collapse {
+   
+    flex-grow: 0;
+    align-items: center;
+}
+
+
+h4.heading {
+    padding-left: 8%;
+    padding-top: 15%;
+    color: rgb(30, 106, 159);
+    font-size: 243%;
+}
+p.content-minions {
+    /* padding-left: 5%; */
+    font-size: 19px;
+    text-align: justify;
+}
+a.text-info {
+    text-decoration: none;
+}
+.view-more{
+    float: right;
+}
+.uspolo-image{
+    max-width: 100%;
+    height: auto;
+}
+.list{
+    background-color: #337ab7;
+    padding: 2% 3%;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.movie{
+    padding: 1%;
+}
+
+h3.minions-about {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+   
+.minions-about,.movie-minion,.movie-characters,.minion-gallery{
+    color: #337ab7;
+    
+    padding: 9px;
+    border-radius: 3px;
+    margin-bottom: 2%;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+}
+.movie-image{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+h3.parts-number {
+    padding-top: 24px;
+}
+.movie-part1{
+    border-radius: 4px;
+    border: 1 solid #337ab7;
+}
+.title-card{
+    background-color: #337ab7;
+    color: white; 
+}
+
+.movie-part1, .movie-part2, .movie-part3{
+    border: solid #1e6a9f 1px;
+}
+.Part-1,.part-2,.part-3 {
+    padding-left: 11px;
+}
+.customer-need{
+    padding-bottom: 250px;
+    padding-top: 25px;
+}
+.title-card{
+    background-color: #1e6a9f;
+   
+}
+img.card-1-image {
+    padding-left: 11px;
+}
+.Characters {
+    padding: 0% 2%;
+}
+.card-1-title{
+    border: solid #1e6a9f 1px;
+}
+.title {
+    background-color: #1e6a9f;
+}
+.gallery{
+    background-color: rgb(30,106,159);
+}
+.row,.gallery-minion{
+    padding: 2%
+}
+.time {
+    display: flex;
+    justify-content: flex-end;
+}
+p.text-center.text-white {
+    font-size: 25px;
+    padding: 2px;
+}
+.bg-primary {
+    color: #fff;
+    background-color: #337ab7;
+}
+footer {
+    background-color: #23415C;
+    padding: 8% 5% 5% 5%;
+    color: #fff;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: -2%;
+}
+img.social-image {
+    width: 5%;
+}
+.img-circle {
+    width: 80%;
+    border-radius: 50%;
+}
+@media only screen and (max-width:768px){
+
+   
+    h4.heading {
+        
+        padding-top: 5%;
+    }
+    .col-md-4,.col-md-3 {
+        margin-top: 2%;
+    }
+    
+}
